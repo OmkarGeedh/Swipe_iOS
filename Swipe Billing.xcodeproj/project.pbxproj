@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		783B18AD2CF892C300DDA9BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 783B18942CF892C000DDA9BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 783B189B2CF892C000DDA9BF;
+			remoteInfo = "Swipe Billing";
+		};
+		783B18B72CF892C300DDA9BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 783B18942CF892C000DDA9BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 783B189B2CF892C000DDA9BF;
+			remoteInfo = "Swipe Billing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		783B189C2CF892C000DDA9BF /* Swipe Billing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swipe Billing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		783B18AC2CF892C300DDA9BF /* Swipe BillingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swipe BillingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		783B18B62CF892C300DDA9BF /* Swipe BillingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swipe BillingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		783B189E2CF892C000DDA9BF /* Swipe Billing */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Swipe Billing";
+			sourceTree = "<group>";
+		};
+		783B18AF2CF892C300DDA9BF /* Swipe BillingTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Swipe BillingTests";
+			sourceTree = "<group>";
+		};
+		783B18B92CF892C300DDA9BF /* Swipe BillingUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Swipe BillingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		783B18992CF892C000DDA9BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783B18A92CF892C300DDA9BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783B18B32CF892C300DDA9BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		783B18932CF892C000DDA9BF = {
+			isa = PBXGroup;
+			children = (
+				783B189E2CF892C000DDA9BF /* Swipe Billing */,
+				783B18AF2CF892C300DDA9BF /* Swipe BillingTests */,
+				783B18B92CF892C300DDA9BF /* Swipe BillingUITests */,
+				783B189D2CF892C000DDA9BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		783B189D2CF892C000DDA9BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				783B189C2CF892C000DDA9BF /* Swipe Billing.app */,
+				783B18AC2CF892C300DDA9BF /* Swipe BillingTests.xctest */,
+				783B18B62CF892C300DDA9BF /* Swipe BillingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		783B189B2CF892C000DDA9BF /* Swipe Billing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783B18C02CF892C300DDA9BF /* Build configuration list for PBXNativeTarget "Swipe Billing" */;
+			buildPhases = (
+				783B18982CF892C000DDA9BF /* Sources */,
+				783B18992CF892C000DDA9BF /* Frameworks */,
+				783B189A2CF892C000DDA9BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				783B189E2CF892C000DDA9BF /* Swipe Billing */,
+			);
+			name = "Swipe Billing";
+			packageProductDependencies = (
+			);
+			productName = "Swipe Billing";
+			productReference = 783B189C2CF892C000DDA9BF /* Swipe Billing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		783B18AB2CF892C300DDA9BF /* Swipe BillingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783B18C32CF892C300DDA9BF /* Build configuration list for PBXNativeTarget "Swipe BillingTests" */;
+			buildPhases = (
+				783B18A82CF892C300DDA9BF /* Sources */,
+				783B18A92CF892C300DDA9BF /* Frameworks */,
+				783B18AA2CF892C300DDA9BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				783B18AE2CF892C300DDA9BF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				783B18AF2CF892C300DDA9BF /* Swipe BillingTests */,
+			);
+			name = "Swipe BillingTests";
+			packageProductDependencies = (
+			);
+			productName = "Swipe BillingTests";
+			productReference = 783B18AC2CF892C300DDA9BF /* Swipe BillingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		783B18B52CF892C300DDA9BF /* Swipe BillingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783B18C62CF892C300DDA9BF /* Build configuration list for PBXNativeTarget "Swipe BillingUITests" */;
+			buildPhases = (
+				783B18B22CF892C300DDA9BF /* Sources */,
+				783B18B32CF892C300DDA9BF /* Frameworks */,
+				783B18B42CF892C300DDA9BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				783B18B82CF892C300DDA9BF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				783B18B92CF892C300DDA9BF /* Swipe BillingUITests */,
+			);
+			name = "Swipe BillingUITests";
+			packageProductDependencies = (
+			);
+			productName = "Swipe BillingUITests";
+			productReference = 783B18B62CF892C300DDA9BF /* Swipe BillingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		783B18942CF892C000DDA9BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					783B189B2CF892C000DDA9BF = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					783B18AB2CF892C300DDA9BF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 783B189B2CF892C000DDA9BF;
+					};
+					783B18B52CF892C300DDA9BF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 783B189B2CF892C000DDA9BF;
+					};
+				};
+			};
+			buildConfigurationList = 783B18972CF892C000DDA9BF /* Build configuration list for PBXProject "Swipe Billing" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 783B18932CF892C000DDA9BF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 783B189D2CF892C000DDA9BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				783B189B2CF892C000DDA9BF /* Swipe Billing */,
+				783B18AB2CF892C300DDA9BF /* Swipe BillingTests */,
+				783B18B52CF892C300DDA9BF /* Swipe BillingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		783B189A2CF892C000DDA9BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783B18AA2CF892C300DDA9BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783B18B42CF892C300DDA9BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		783B18982CF892C000DDA9BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783B18A82CF892C300DDA9BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783B18B22CF892C300DDA9BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		783B18AE2CF892C300DDA9BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 783B189B2CF892C000DDA9BF /* Swipe Billing */;
+			targetProxy = 783B18AD2CF892C300DDA9BF /* PBXContainerItemProxy */;
+		};
+		783B18B82CF892C300DDA9BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 783B189B2CF892C000DDA9BF /* Swipe Billing */;
+			targetProxy = 783B18B72CF892C300DDA9BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		783B18BE2CF892C300DDA9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		783B18BF2CF892C300DDA9BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		783B18C12CF892C300DDA9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swipe Billing/Preview Content\"";
+				DEVELOPMENT_TEAM = RZZRPSLWQX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Omkar.Swipe-Billing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		783B18C22CF892C300DDA9BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swipe Billing/Preview Content\"";
+				DEVELOPMENT_TEAM = RZZRPSLWQX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Omkar.Swipe-Billing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		783B18C42CF892C300DDA9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RZZRPSLWQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Omkar.Swipe-BillingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swipe Billing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swipe Billing";
+			};
+			name = Debug;
+		};
+		783B18C52CF892C300DDA9BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RZZRPSLWQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Omkar.Swipe-BillingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swipe Billing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swipe Billing";
+			};
+			name = Release;
+		};
+		783B18C72CF892C300DDA9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RZZRPSLWQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Omkar.Swipe-BillingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swipe Billing";
+			};
+			name = Debug;
+		};
+		783B18C82CF892C300DDA9BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RZZRPSLWQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Omkar.Swipe-BillingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swipe Billing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		783B18972CF892C000DDA9BF /* Build configuration list for PBXProject "Swipe Billing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783B18BE2CF892C300DDA9BF /* Debug */,
+				783B18BF2CF892C300DDA9BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783B18C02CF892C300DDA9BF /* Build configuration list for PBXNativeTarget "Swipe Billing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783B18C12CF892C300DDA9BF /* Debug */,
+				783B18C22CF892C300DDA9BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783B18C32CF892C300DDA9BF /* Build configuration list for PBXNativeTarget "Swipe BillingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783B18C42CF892C300DDA9BF /* Debug */,
+				783B18C52CF892C300DDA9BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783B18C62CF892C300DDA9BF /* Build configuration list for PBXNativeTarget "Swipe BillingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783B18C72CF892C300DDA9BF /* Debug */,
+				783B18C82CF892C300DDA9BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 783B18942CF892C000DDA9BF /* Project object */;
+}
